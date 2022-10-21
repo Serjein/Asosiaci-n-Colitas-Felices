@@ -127,8 +127,8 @@ header .img-logo {
   height: 90px;
 }
 header h1 {
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 25px;
+  margin-top: 15px;
 }
 header .animate__animated .animate__rubberBand {
   -webkit-animation: animate__rubberBand;
@@ -167,13 +167,62 @@ header .menu__links .menu__item {
   --clip: polygon(0 0, 100% 0, 0 0);
   --transform: rotate(-90deg);
 }
+header .menu__links .menu__item .menu__link {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+header .menu__links .menu__item .menu__link:hover {
+  border-radius: 7px;
+  background-color: rgba(33, 7, 179, 0.4);
+}
 header .menu__links .menu__item .menu__arrow {
   -webkit-transform: var(--transform);
           transform: var(--transform);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  display: block;
 }
 header .menu__links .menu__item .menu__nesting {
+  list-style: none;
+  -webkit-transition: -webkit-clip-path 0.3s;
+  transition: -webkit-clip-path 0.3s;
+  transition: clip-path 0.3s;
+  transition: clip-path 0.3s, -webkit-clip-path 0.3s;
   -webkit-clip-path: var(--clip);
           clip-path: var(--clip);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+header .menu__links .menu__item .menu__nesting .menu__link--inside {
+  font-size: 12px;
+  background-color: rgba(33, 7, 179, 0.4);
+  border-radius: 7px;
+  padding: 3px;
+  margin-top: 10px;
+}
+header .menu__links .menu__item .menu__nesting .menu__link--inside:hover {
+  background-color: rgba(2, 168, 251, 0.4);
+}
+header .menu__links .menu__item a.menu__link.active {
+  color: rgb(119, 5, 119);
 }
 header .menu__links .menu__item:hover {
   --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
