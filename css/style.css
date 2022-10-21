@@ -126,11 +126,15 @@ header .img-logo {
   width: 140px;
   height: 90px;
 }
-header h1 {
+header a {
+  text-decoration: none;
+}
+header a h1 {
   font-size: 25px;
+  color: white;
   margin-top: 15px;
 }
-header .animate__animated .animate__rubberBand {
+header a .animate__animated .animate__rubberBand {
   -webkit-animation: animate__rubberBand;
           animation: animate__rubberBand;
   -webkit-animation-duration: 60s;
@@ -235,7 +239,10 @@ main {
 main .gs-grid div div .texto {
   font-size: 18px;
   margin-top: 30px;
-  margin-bottom: 20px;
+}
+main .gs-grid div div .texto__1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 main .gs-grid .slider {
   width: 850px;
