@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(150, 7, 179);
+    color: white;
+    font-family: futura;
+    height: 100vh;
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: $gap / 2;
+        padding-right: $gap / 2;
+
+
+        .gs-grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: $gap / -2;
+            margin-right: $gap / -2;
+
+
+            [class*="col-"],
+            .col {
+                width: 100%;
+                max-width: 100%;
+                padding-left: $gap / 2;
+                padding-right: $gap / 2;
+
+                .col-ex {
+                 display: grid;
+                    place-items: center;
+
+                }
+            }
+
+            .col {
+                flex: 1 0 0;
+            }
+
+            @for $col from 1 through $cols {
+                .col-#{$col} {
+                    flex: 0 0 (100% / $cols) * $col;
+                    max-width: (100% / $cols) * $col;
+                }
+            }
+        }
+    }
+}

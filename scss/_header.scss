@@ -1,0 +1,60 @@
+header {
+    background: linear-gradient(180deg, #007991, #63d1b0);
+    height: 12vh;
+
+    .img-logo {
+        width: 140px;
+        height: 90px;
+    }
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+    .animate__animated .animate__rubberBand {
+        animation: animate__rubberBand;
+        animation-duration: 60s;
+    }
+
+     #menu {
+         .menu-items {
+             display: flex;
+             list-style: none;
+             margin-top: 45px;
+
+        }
+
+        .menu-items li {
+            border-radius: 3px;
+           margin: 0 5px;
+        }
+
+        .menu-items li a {
+        font-size: 14px;
+           padding: 3px 3px;
+         text-decoration: none;
+            display: block;
+             text-transform: uppercase;
+             text-align: center;
+             color: white;
+             transition: .5s;
+         }
+
+         .menu-items li:hover,
+         li.active {
+             background-color: rgba(255, 2, 150, 0.3);
+             transition: .4s;
+         }
+
+         #menu li:hover> ul {
+             display: block;
+        }
+        .sub__menu{
+        .sub__menu-items{
+            position: absolute;
+            list-style: none;
+            display: none;
+         } 
+        }        
+    }
+        
+    }

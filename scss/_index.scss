@@ -1,0 +1,31 @@
+main {
+    height: 80vh;
+
+    .gs-grid {
+        div {
+            div {
+                .texto {
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        article {
+            height: 490px;
+            background-color: rgba(2, 61, 255, 0.322);
+            border: 2px;
+            -webkit-box-shadow: 10px 10px 14px 4px rgba(0, 0, 0, 0.63);
+            -moz-box-shadow: 10px 10px 14px 4px rgba(0, 0, 0, 0.63);
+            box-shadow: 10px 10px 14px 4px rgba(0, 0, 0, 0.63);
+            margin-top: 5px;
+            margin-left: 90px;
+
+            .img-art {
+                width: 300px;
+                height: 210px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
