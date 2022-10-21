@@ -15,46 +15,37 @@ h1{
         animation-duration: 60s;
     }
 
-     #menu {
-         .menu-items {
-             display: flex;
-             list-style: none;
-             margin-top: 45px;
+    .menu__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+     }
+      .menu__links{
+        height: 100%;
+        transition: transform .5s;
+        display: flex;
 
-        }
-
-        .menu-items li {
-            border-radius: 3px;
-           margin: 0 5px;
-        }
-
-        .menu-items li a {
-        font-size: 14px;
-           padding: 3px 3px;
-         text-decoration: none;
-            display: block;
-             text-transform: uppercase;
-             text-align: center;
-             color: white;
-             transition: .5s;
-         }
-
-         .menu-items li:hover,
-         li.active {
-             background-color: rgba(255, 2, 150, 0.3);
-             transition: .4s;
-         }
-
-         #menu li:hover> ul {
-             display: block;
-        }
-        .sub__menu{
-        .sub__menu-items{
-            position: absolute;
+        .menu__item{
             list-style: none;
-            display: none;
-         } 
-        }        
-    }
-        
+            position: relative;
+            height: 100%;
+            --clip: polygon(0 0, 100% 0, 0 0);
+--transform: rotate(-90deg);
+
+.menu__arrow{
+    transform: var(--transform);
+}
+
+       .menu__nesting{
+        clip-path: var(--clip);
+       }
+        }
+        .menu__item:hover{
+            --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            --transform: rotate(0);
+        }
+      }  
     }

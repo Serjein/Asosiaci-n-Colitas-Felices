@@ -136,41 +136,48 @@ header .animate__animated .animate__rubberBand {
   -webkit-animation-duration: 60s;
           animation-duration: 60s;
 }
-header #menu .menu-items {
+header .menu__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+header .menu__links {
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .menu__links .menu__item {
   list-style: none;
-  margin-top: 45px;
+  position: relative;
+  height: 100%;
+  --clip: polygon(0 0, 100% 0, 0 0);
+  --transform: rotate(-90deg);
 }
-header #menu .menu-items li {
-  border-radius: 3px;
-  margin: 0 5px;
+header .menu__links .menu__item .menu__arrow {
+  -webkit-transform: var(--transform);
+          transform: var(--transform);
 }
-header #menu .menu-items li a {
-  font-size: 14px;
-  padding: 3px 3px;
-  text-decoration: none;
-  display: block;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+header .menu__links .menu__item .menu__nesting {
+  -webkit-clip-path: var(--clip);
+          clip-path: var(--clip);
 }
-header #menu .menu-items li:hover,
-header #menu li.active {
-  background-color: rgba(255, 2, 150, 0.3);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-header #menu #menu li:hover > ul {
-  display: block;
-}
-header #menu .sub__menu .sub__menu-items {
-  position: absolute;
-  list-style: none;
-  display: none;
+header .menu__links .menu__item:hover {
+  --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  --transform: rotate(0);
 }
 
 main {
