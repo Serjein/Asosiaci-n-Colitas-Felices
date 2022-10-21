@@ -29,23 +29,20 @@
             <div class="col-6">
                 <div class="col-ex">
                     <nav id="menu">
-                        <ul class="menu-items">
-                            <li class="active">
-                                <a href="#">Inicio</a>
+                        <ul class="menu-links">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Inicio</a>
                             </li>
-                            <li>
+                            <li class="menu__item">
                                 <a href="#">¿QUIÉNES SOMOS?</a>
                             </li>
-                            <li class="sub__menu">
-                                <a href="#">PERRITOS EN ADOPCIÓN</a>
-                                <ul class="sub__menu-items">
-                                    <li>
-                                        <a href="#">requisitos</a>
+                            <li class="menu__item menu__item--show">
+                                <a href="#">PERRITOS EN ADOPCIÓN <img src="./assets/imagenes/arrow.svg" alt="arrow" class="menu__arrow"></a>
+                                <ul class="menu__nesting">
+                                    <li class="menu__inside">
+                                        <a href="#" class="menu__link menu__link--inside">requisitos</a>
                                     </li>
-                                    <li>
-                                        <a href="#">requisitos</a>
-                                    </li>
-                                </ul>
+                                   </ul>
                             </li>
                             <li>
                                 <a href="#">DONATIVOS</a>
@@ -146,6 +143,7 @@
     </div>
 
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
