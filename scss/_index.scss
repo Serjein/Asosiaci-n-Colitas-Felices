@@ -6,9 +6,47 @@ main {
             div {
                 .texto {
                     font-size: 18px;
-                    margin-top: 20px;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
                 }
             }
+        }
+
+        .slider {
+            width: 850px;
+            height: 240px;
+            overflow: hidden;
+            margin-left: 50px;
+           
+            
+             ul {
+                display: flex;
+                animation: cambio 20s infinite alternate linear;
+                width: 400%;
+
+                 li {
+                    width: 100%;
+                    list-style: none;
+
+                     img {
+                        width: 850px;
+                        height: 240px;
+                    }
+                }
+            }
+        @keyframes cambio {
+            0%{margin-left: 0;}
+            20%{margin-left: 0;}
+
+            25%{margin-left: -100%;}
+            45%{margin-left: -100%;}
+            50%{margin-left: -200%;}
+            70%{margin-left: -200%;}
+
+            75%{margin-left: -300%;}
+            100%{margin-left: -300%;}
+        }
+        
         }
 
         article {

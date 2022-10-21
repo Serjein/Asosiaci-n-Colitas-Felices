@@ -234,7 +234,82 @@ main {
 }
 main .gs-grid div div .texto {
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+main .gs-grid .slider {
+  width: 850px;
+  height: 240px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+main .gs-grid .slider ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: cambio 20s infinite alternate linear;
+          animation: cambio 20s infinite alternate linear;
+  width: 400%;
+}
+main .gs-grid .slider ul li {
+  width: 100%;
+  list-style: none;
+}
+main .gs-grid .slider ul li img {
+  width: 850px;
+  height: 240px;
+}
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
 }
 main .gs-grid article {
   height: 490px;
