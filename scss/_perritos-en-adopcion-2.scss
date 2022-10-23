@@ -1,0 +1,14 @@
+.container {
+    .link__pag {
+        div {
+            .link__pag--izq {
+                text-decoration: none;
+                color: #f3f3f3;
+                display: flex;
+                justify-content: right;
+                margin-right: 10px;
+                text-align: center;
+            }
+        }
+    }
+}

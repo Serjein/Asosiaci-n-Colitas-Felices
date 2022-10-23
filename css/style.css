@@ -233,6 +233,55 @@ header .menu__links .menu__item:hover {
   --transform: rotate(0);
 }
 
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#63d1b0), to(#007991));
+  background: linear-gradient(180deg, #63d1b0, #007991);
+  height: 8vh;
+}
+footer div div div nav {
+  margin-top: 5px;
+  margin-left: 0 !important;
+}
+footer div div div nav .breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  margin-left: 0;
+}
+footer div div div nav .breadcrumbs .breadcrumbs__item:not(:last-of-type)::after {
+  content: ">";
+  margin: 0 5px;
+  color: rgba(204, 204, 204, 0.8);
+  font-size: 10px;
+}
+footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(61, 60, 60, 0.6);
+}
+footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link-active {
+  color: rgb(150, 7, 179);
+  font-weight: 900;
+}
+footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link:hover {
+  text-decoration: underline;
+}
+footer div div div .text-redes {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+footer div div div .redes-sociales {
+  width: 38px;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-size: 9px;
+}
+
 main {
   height: 80vh;
 }
@@ -348,53 +397,125 @@ main .gs-grid article .img-art {
   height: 400px;
 }
 
-footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#63d1b0), to(#007991));
-  background: linear-gradient(180deg, #63d1b0, #007991);
-  height: 8vh;
+.container h2 {
+  margin-top: 10px;
 }
-footer div div div nav {
-  margin-top: 5px;
-  margin-left: 0 !important;
+.container section {
+  margin-top: 35px;
 }
-footer div div div nav .breadcrumbs {
+.container section div div .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+}
+.container section div div .card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.container section div div .card .front {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+  -webkit-box-shadow: 0 5px 10px #000;
+          box-shadow: 0 5px 10px #000;
+}
+.container section div div .card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container section div div .card .front h3 {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.container section div div .card .back {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  padding: 5px;
-  margin-left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 5px 10px #000;
+          box-shadow: 0 5px 10px #000;
 }
-footer div div div nav .breadcrumbs .breadcrumbs__item:not(:last-of-type)::after {
-  content: ">";
-  margin: 0 5px;
-  color: rgba(204, 204, 204, 0.8);
-  font-size: 10px;
+.container section div div .card .back h4 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  text-align: center;
 }
-footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link {
-  padding: 5px;
+.container section div div .card .back ul {
+  margin-left: 10px;
+}
+.container section div div .card .back ul li {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.container section div div .card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.container section div div .card .back .link a {
+  color: #f3f3f3;
+}
+.container section div div .card:hover .front {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+}
+.container section div div .card:hover .back {
+  -webkit-transform: perspective(600px) rotateY(360deg);
+          transform: perspective(600px) rotateY(360deg);
+}
+.container .link__pag div .link__pag--der {
+  font-size: 15px;
   text-decoration: none;
-  font-size: 13px;
-  color: rgba(61, 60, 60, 0.6);
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: center;
+  margin-right: 10px;
 }
-footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link-active {
-  color: rgb(150, 7, 179);
-  font-weight: 900;
-}
-footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link:hover {
-  text-decoration: underline;
-}
-footer div div div .text-redes {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 70px;
-}
-footer div div div .redes-sociales {
-  width: 38px;
-  height: 38px;
-  margin-top: 5px;
-  margin-left: 50px;
-  font-size: 9px;
+
+.container .link__pag div .link__pag--izq {
+  text-decoration: none;
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 10px;
+  text-align: center;
 }
 
 @font-face {
