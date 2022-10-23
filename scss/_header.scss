@@ -15,13 +15,12 @@ header {
             color: white;
             margin-top: 15px;
         }
+
         .animate__animated .animate__rubberBand {
             animation: animate__rubberBand;
             animation-duration: 60s;
         }
     }
-
-    
 
     .menu__container {
         display: flex;

@@ -333,16 +333,29 @@ main .gs-grid article .img-art {
   margin-top: 10px;
 }
 
+.container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container section div div .texto__quienes {
+  font-size: 14.3px;
+}
+.container section div ul .li-quienes-s {
+  font-size: 14.3px;
+}
+.container div div .video-qs {
+  width: 400px;
+  height: 400px;
+}
+
 footer {
   background: -webkit-gradient(linear, left top, left bottom, from(#63d1b0), to(#007991));
   background: linear-gradient(180deg, #63d1b0, #007991);
   height: 8vh;
 }
-footer div div div {
-  padding-left: 0 !important;
-}
 footer div div div nav {
   margin-top: 5px;
+  margin-left: 0 !important;
 }
 footer div div div nav .breadcrumbs {
   display: -webkit-box;
@@ -350,6 +363,7 @@ footer div div div nav .breadcrumbs {
   display: flex;
   list-style: none;
   padding: 5px;
+  margin-left: 0;
 }
 footer div div div nav .breadcrumbs .breadcrumbs__item:not(:last-of-type)::after {
   content: ">";
@@ -380,6 +394,7 @@ footer div div div .redes-sociales {
   height: 38px;
   margin-top: 5px;
   margin-left: 50px;
+  font-size: 9px;
 }
 
 @font-face {
