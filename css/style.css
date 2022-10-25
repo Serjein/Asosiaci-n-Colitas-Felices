@@ -14,8 +14,8 @@ body {
 body .container {
   width: 100%;
   margin: 0 auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 body .container .gs-grid {
   display: -webkit-box;
@@ -23,21 +23,20 @@ body .container .gs-grid {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 body .container .gs-grid [class*=col-],
 body .container .gs-grid .col {
   width: 100%;
   max-width: 100%;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 body .container .gs-grid [class*=col-] .col-ex,
 body .container .gs-grid .col .col-ex {
   display: -ms-grid;
   display: grid;
-  place-items: center;
 }
 body .container .gs-grid .col {
   -webkit-box-flex: 1;
@@ -133,6 +132,7 @@ header a h1 {
   font-size: 25px;
   color: white;
   margin-top: 15px;
+  text-align: center;
 }
 header a .animate__animated .animate__rubberBand {
   -webkit-animation: animate__rubberBand;
@@ -175,7 +175,6 @@ header .menu__links .menu__item .menu__link {
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,11 +182,11 @@ header .menu__links .menu__item .menu__link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 header .menu__links .menu__item .menu__link:hover {
-  border-radius: 7px;
-  background-color: rgba(33, 7, 179, 0.4);
+  border-radius: 5px;
+  color: rgb(119, 5, 119);
 }
 header .menu__links .menu__item .menu__arrow {
   -webkit-transform: var(--transform);
@@ -220,10 +219,10 @@ header .menu__links .menu__item .menu__nesting .menu__link--inside {
   background-color: rgba(33, 7, 179, 0.4);
   border-radius: 7px;
   padding: 3px;
-  margin-top: 10px;
+  margin-top: 23px;
 }
 header .menu__links .menu__item .menu__nesting .menu__link--inside:hover {
-  background-color: rgba(2, 168, 251, 0.4);
+  background-color: rgba(2, 168, 251, 0.6);
 }
 header .menu__links .menu__item a.menu__link.active {
   color: rgb(119, 5, 119);
@@ -248,19 +247,20 @@ footer div div div nav .breadcrumbs {
   display: flex;
   list-style: none;
   padding: 5px;
+  margin-top: 5px;
   margin-left: 0;
 }
 footer div div div nav .breadcrumbs .breadcrumbs__item:not(:last-of-type)::after {
   content: ">";
   margin: 0 5px;
-  color: rgba(204, 204, 204, 0.8);
-  font-size: 10px;
+  color: rgba(74, 73, 73, 0.8);
+  font-size: 15px;
 }
 footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link {
   padding: 5px;
   text-decoration: none;
-  font-size: 13px;
-  color: rgba(61, 60, 60, 0.6);
+  font-size: 15px;
+  color: rgba(49, 48, 48, 0.6);
 }
 footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link-active {
   color: rgb(150, 7, 179);
@@ -272,13 +272,13 @@ footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link:hover 
 footer div div div .text-redes {
   font-size: 18px;
   margin-top: 10px;
-  margin-left: 70px;
+  margin-left: 100px;
 }
 footer div div div .redes-sociales {
   width: 38px;
   height: 38px;
   margin-top: 5px;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: 9px;
 }
 
@@ -385,16 +385,20 @@ main .gs-grid article .img-art {
 .container h3 {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 .container section div div .texto__quienes {
   font-size: 14.3px;
+  margin-left: 10px;
 }
 .container section div ul .li-quienes-s {
   font-size: 14.3px;
+  margin-left: 25px;
 }
 .container div div .video-qs {
   width: 400px;
   height: 400px;
+  margin-left: 50px;
 }
 
 .container h2 {
@@ -516,6 +520,11 @@ main .gs-grid article .img-art {
           justify-content: right;
   margin-right: 10px;
   text-align: center;
+}
+
+.container section div div .texto__requi {
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 @font-face {

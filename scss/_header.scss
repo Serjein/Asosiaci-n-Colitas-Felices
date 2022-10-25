@@ -5,7 +5,7 @@ header {
     .img-logo {
         width: 140px;
         height: 90px;
-    }
+        }
 
     a {
         text-decoration: none;
@@ -14,6 +14,7 @@ header {
             font-size: 25px;
             color: white;
             margin-top: 15px;
+            text-align: center;
         }
 
         .animate__animated .animate__rubberBand {
@@ -47,18 +48,17 @@ header {
                 color: #fff;
                 font-size: 14px;
                 text-decoration: none;
-                padding: 0 15px;
+                // padding: 0 3px !important;
                 display: flex;
                 height: 100%;
                 align-items: center;
-                margin-top: 40px;
+                margin-top: 30px;
             }
 
             .menu__link:hover {
-                border-radius: 7px;
-                background-color: rgba(33, 7, 179, 0.4);
-
-            }
+                border-radius: 5px;
+                color: rgb(119, 5, 119);
+                }
 
             .menu__arrow {
                 transform: var(--transform);
@@ -81,11 +81,11 @@ header {
                     background-color: rgba(33, 7, 179, 0.4);
                     border-radius: 7px;
                     padding: 3px;
-                    margin-top: 10px;
+                    margin-top: 23px;
                 }
 
                 .menu__link--inside:hover {
-                    background-color: rgba(2, 168, 251, 0.4);
+                    background-color: rgba(2, 168, 251, 0.6);
                 }
             }
 

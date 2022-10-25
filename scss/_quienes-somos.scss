@@ -2,6 +2,7 @@
     h3 {
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 20px;
     }
 
     section {
@@ -9,12 +10,14 @@
             div {
                 .texto__quienes {
                     font-size: 14.3px;
+                    margin-left: 10px;
                 }
             }
 
             ul {
                 .li-quienes-s {
                     font-size: 14.3px;
+                    margin-left: 25px;
                 }
             }
         }
@@ -25,6 +28,7 @@
             .video-qs {
                 width: 400px;
                 height: 400px;
+                margin-left: 50px;
             }
         }
     }
