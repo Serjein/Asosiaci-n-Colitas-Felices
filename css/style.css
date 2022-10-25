@@ -498,7 +498,6 @@ main .gs-grid article .img-art {
           transform: perspective(600px) rotateY(360deg);
 }
 .container .link__pag div .link__pag--der {
-  font-size: 15px;
   text-decoration: none;
   color: #f3f3f3;
   display: -webkit-box;
@@ -511,7 +510,7 @@ main .gs-grid article .img-art {
   margin-right: 10px;
 }
 
-.container .link__pag div .link__pag--izq {
+.container .link__pag div .link__pag--izqu {
   text-decoration: none;
   color: #f3f3f3;
   display: -webkit-box;
