@@ -1,11 +1,44 @@
-.contatiner{
-    section{
-        div{
-            div{
-                .texto-donativos{
-                    margin-bottom: 10px;
+.container {
+    section {
+        div {
+            div {
+                .texto-donativos {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                .h3-deposito {
+                    color: rgb(252, 88, 38);
+                    text-align: center;
+                }
+
+                .texto-deposito {
+                    color: rgb(7, 163, 248);
+                    text-align: center;
+                }
+
+                .numero-deposito {
+                    text-align: center;
+                }
+
+                div {
+                    text-align: center;
+                    margin-top: 10px;
+
+                    .img__logo--don {
+                        width: 60px;
+                        height: 30px;
+
+                    }
                 }
             }
+        }
+
+        .img-deposito {
+            width: 400px;
+            height: 450px;
+            margin-left: 30px;
+
         }
     }
 }

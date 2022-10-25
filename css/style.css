@@ -578,8 +578,33 @@ main .gs-grid article .img-art {
   margin-right: 10px;
 }
 
-.contatiner section div div .texto-donativos {
-  margin-bottom: 10px;
+.container section div div .texto-donativos {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container section div div .h3-deposito {
+  color: rgb(252, 88, 38);
+  text-align: center;
+}
+.container section div div .texto-deposito {
+  color: rgb(7, 163, 248);
+  text-align: center;
+}
+.container section div div .numero-deposito {
+  text-align: center;
+}
+.container section div div div {
+  text-align: center;
+  margin-top: 10px;
+}
+.container section div div div .img__logo--don {
+  width: 60px;
+  height: 30px;
+}
+.container section .img-deposito {
+  width: 400px;
+  height: 450px;
+  margin-left: 30px;
 }
 
 @font-face {
