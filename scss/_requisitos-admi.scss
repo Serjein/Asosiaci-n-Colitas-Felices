@@ -9,4 +9,29 @@
             }
         }
     }
+    .link__pag--requi {
+        margin-top: 0;
+        div {
+            .link__pag--der {
+                font-size: 15px;
+                text-decoration: none;
+                color: #f3f3f3;
+                display: flex;
+                justify-content: right;
+                text-align: center;
+                margin-right: 10px;
+                
+            }
+            .link__pag--izq {
+                font-size: 15px;
+                text-decoration: none;
+                color: #f3f3f3;
+                display: flex;
+                justify-content: right;
+                text-align: center;
+                margin-top: 200px;
+                margin-right: 10px;
+        }
+    }
+}
 }

@@ -259,7 +259,7 @@ footer div div div nav .breadcrumbs .breadcrumbs__item:not(:last-of-type)::after
 footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link {
   padding: 5px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   color: rgba(49, 48, 48, 0.6);
 }
 footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link-active {
@@ -270,9 +270,10 @@ footer div div div nav .breadcrumbs .breadcrumbs__item .breadcrumbs__link:hover 
   text-decoration: underline;
 }
 footer div div div .text-redes {
-  font-size: 18px;
+  font-size: 14px;
+  text-align: center;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 footer div div div .redes-sociales {
   width: 38px;
@@ -445,6 +446,7 @@ main .gs-grid article .img-art {
   color: #fff;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
+  margin-left: 0;
 }
 .container section div div .card .back {
   -webkit-transform: perspective(600px) rotateY(180deg);
@@ -525,6 +527,36 @@ main .gs-grid article .img-art {
 .container section div div .texto__requi {
   font-size: 14px;
   margin-left: 10px;
+}
+.container .link__pag--requi {
+  margin-top: 0;
+}
+.container .link__pag--requi div .link__pag--der {
+  font-size: 15px;
+  text-decoration: none;
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: center;
+  margin-right: 10px;
+}
+.container .link__pag--requi div .link__pag--izq {
+  font-size: 15px;
+  text-decoration: none;
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 10px;
 }
 
 @font-face {
