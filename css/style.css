@@ -607,6 +607,13 @@ main .gs-grid article .img-art {
   margin-left: 30px;
 }
 
+.container section div div form .label {
+  margin-top: 20px;
+}
+.container section .mapa-contacto {
+  margin-left: 200px;
+}
+
 @font-face {
   font-family: futura;
   src: url(../assets/fuentes/FuturaHandwritten.ttf);
