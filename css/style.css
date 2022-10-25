@@ -593,11 +593,11 @@ main .gs-grid article .img-art {
 .container section div div .numero-deposito {
   text-align: center;
 }
-.container section div div div {
+.container section div div .img__logo {
   text-align: center;
   margin-top: 10px;
 }
-.container section div div div .img__logo--don {
+.container section div div .img__logo .img__logo--don {
   width: 60px;
   height: 30px;
 }
