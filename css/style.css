@@ -578,6 +578,10 @@ main .gs-grid article .img-art {
   margin-right: 10px;
 }
 
+.contatiner section div div .texto-donativos {
+  margin-bottom: 10px;
+}
+
 @font-face {
   font-family: futura;
   src: url(../assets/fuentes/FuturaHandwritten.ttf);
