@@ -22,7 +22,7 @@ footer {
                         .breadcrumbs__item:not(:last-of-type)::after {
                             content: ">";
                             margin: 0 5px;
-                            color: rgba(74, 73, 73, 0.8);
+                            color: map-get($paleta-color,"bread-item" );
                             font-size: 15px;
                         }
 
@@ -31,7 +31,7 @@ footer {
                                 padding: 5px;
                                 text-decoration: none;
                                 font-size: 14px;
-                                color: rgba(49, 48, 48, 0.6);
+                                color: map-get($paleta-color ,"bread-link" );
                             }
 
                             .breadcrumbs__link-active {

@@ -11,8 +11,8 @@ header {
         text-decoration: none;
 
         h1 {
-            font-size: 25px;
-            color: white;
+            font-size: 30px;
+            color: map-get($paleta-color, "titulo" );
             margin-top: 15px;
             text-align: center;
         }
@@ -45,10 +45,9 @@ header {
             --transform: rotate(-90deg);
 
             .menu__link {
-                color: #fff;
+                color: map-get($paleta-color, "menu" );
                 font-size: 14px;
                 text-decoration: none;
-                // padding: 0 3px !important;
                 display: flex;
                 height: 100%;
                 align-items: center;

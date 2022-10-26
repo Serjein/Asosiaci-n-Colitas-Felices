@@ -8,7 +8,7 @@
 body {
   background: rgb(80, 6, 97);
   background: linear-gradient(23deg, rgb(80, 6, 97) 11%, rgba(195, 37, 137, 0.6726287927) 47%, rgb(71, 4, 94) 91%);
-  color: white;
+  color: #fff;
   font-family: futura;
   height: 100vh;
 }
@@ -130,7 +130,7 @@ header a {
   text-decoration: none;
 }
 header a h1 {
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   margin-top: 15px;
   text-align: center;
@@ -384,7 +384,8 @@ main .gs-grid article .img-art {
   margin-top: 10px;
 }
 
-.container h3 {
+.container h2 {
+  color: #04cec1;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;

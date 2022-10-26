@@ -7,7 +7,7 @@
 body {
     background: rgb(80, 6, 97);
     background: linear-gradient(23deg, rgba(80, 6, 97, 1) 11%, rgba(195, 37, 137, 0.6726287927280288) 47%, rgba(71, 4, 94, 1) 91%);
-    color: white;
+    color: map-get($paleta-color , "texto" );
     font-family: futura;
     height: 100vh;
 
