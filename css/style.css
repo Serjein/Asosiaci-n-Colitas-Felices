@@ -603,3 +603,125 @@ main section article div div section div div div #img-art2 {
   font-family: futura;
   src: url(../assets/fuentes/FuturaHandwritten.ttf);
 }
+@media screen and (max-width: 1400px) {
+  header .img-logo {
+    width: 140px;
+    height: 100px;
+  }
+  header a h1 {
+    font-size: 30px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 18px;
+    margin-top: 50px !important;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 40px !important;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  header .img-logo {
+    width: 130px;
+    height: 90px;
+  }
+  header a h1 {
+    font-size: 28px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 16.5px;
+    margin-top: 35px;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  header .img-logo {
+    width: 120px;
+    height: 90px;
+  }
+  header a h1 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 16px;
+    margin-top: 29px !important;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header .img-logo {
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  header a h1 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 16px;
+    margin-top: 50px !important;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 35px !important;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  header .img-logo {
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  header a h1 {
+    font-size: 23px;
+    margin-top: 30px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 13px;
+    margin-top: 45px;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .img-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  header a h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 12px;
+    margin-top: 40px !important;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .img-logo {
+    width: 60px;
+    height: 80px;
+    margin-top: 10px;
+  }
+  header a h1 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  header .menu__links .menu__item .menu__link {
+    font-size: 10px;
+    padding-left: 2px;
+    margin-top: 40px !important;
+  }
+  header .menu__links .menu__item .menu__nesting .menu__link--inside {
+    margin-top: 40px;
+  }
+}

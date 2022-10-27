@@ -36,8 +36,9 @@ body {
                     display: grid;
                 }
             }
+
             @include grid-system(col);
-           
+
         }
     }
 }
