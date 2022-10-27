@@ -287,21 +287,21 @@ footer div div div .redes-sociales {
 main {
   height: 80vh;
 }
-main .gs-grid div div .texto {
+main section div div .texto {
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-main .gs-grid div div .texto__1 {
+main section div div .texto__1 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-main .gs-grid .slider {
+main section div div .slider {
   width: 850px;
   height: 240px;
   overflow: hidden;
-  margin-left: 50px;
+  margin-left: 30px;
 }
-main .gs-grid .slider ul {
+main section div div .slider ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,68 +309,17 @@ main .gs-grid .slider ul {
           animation: cambio 20s infinite alternate linear;
   width: 400%;
 }
-main .gs-grid .slider ul li {
+main section div div .slider ul li {
   width: 100%;
   list-style: none;
 }
-main .gs-grid .slider ul li img {
+main section div div .slider ul li img {
   width: 850px;
   height: 240px;
 }
-@-webkit-keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
-@keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
-main .gs-grid article {
-  height: 490px;
+main section article {
+  width: 350px;
+  height: 480px;
   background-color: rgba(2, 61, 255, 0.322);
   border: 2px;
   -webkit-box-shadow: 10px 10px 14px 4px rgba(0, 0, 0, 0.63);
@@ -378,9 +327,17 @@ main .gs-grid article {
   margin-top: 5px;
   margin-left: 90px;
 }
-main .gs-grid article .img-art {
+main section article .sub-art {
+  margin-top: 10px;
+  text-align: center;
+}
+main section article div div section div div div #img-art1 {
   width: 300px;
-  height: 210px;
+  height: 190px;
+}
+main section article div div section div div div #img-art2 {
+  width: 300px;
+  height: 190px;
   margin-top: 10px;
 }
 
