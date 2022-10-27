@@ -166,15 +166,15 @@
                     }
 
                     .slider {
-                        width: 850px;
-                        height: 210px;
-
+                        width: 720px !important;
+                        height: 310px;
+                        margin-left: 5px;
 
                         ul {
                             li {
                                 img {
-                                    width: 850px;
-                                    height: 210px;
+                                    width: 720px !important;
+                                    height: 310px;
                                 }
                             }
                         }
@@ -185,7 +185,8 @@
 
             article {
                 width: 350px;
-                height: 480px;
+                height: 600px;
+                margin-left: 10px;
 
                 .sub-art {
                     font-size: 20px;
@@ -200,9 +201,8 @@
                                 div {
                                     div {
                                         #img-art1 {
-                                            width: 300px;
-                                            height: 160px;
-
+                                            width: 280px;
+                                            height: 170px;
                                         }
                                     }
                                 }
@@ -210,9 +210,166 @@
                                 div {
                                     div {
                                         #img-art2 {
-                                            width: 300px;
-                                            height: 190px;
-                                            margin-top: 30px;
+                                            width: 280px;
+                                            height: 200px;
+                                            margin-top: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        section {
+            div {
+                div {
+                    .texto {
+                        font-size: 20px;
+                    }
+
+                    .texto__1 {
+                        font-size: 20px;
+                        
+                    }
+
+                    .slider {
+                        width: 600px !important;
+                        height: 330px;
+                        margin-top: 10px !important;
+                        margin-left: 5px;
+
+                        ul {
+                            li {
+                                img {
+                                    width: 600px !important;
+                                    height: 330px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            article {
+                width: 300px;
+                height: 600px;
+                margin-left: 10px;
+
+                .sub-art {
+                    font-size: 20px;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+
+                div {
+                    div {
+                        section {
+                            div {
+                                div {
+                                    div {
+                                        #img-art1 {
+                                            width: 230px;
+                                            height: 170px;
+                                        }
+                                    }
+                                }
+
+                                div {
+                                    div {
+                                        #img-art2 {
+                                            width: 230px;
+                                            height: 180px;
+                                            margin-top: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    @include grid-system(md__col);
+
+    main {
+        section {
+            div {
+                div {
+                    .texto {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+
+                    .texto__1 {
+                        font-size: 18px;
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+
+                    .slider {
+                        width: 600px !important;
+                        height: 300px;
+                        margin-top: 30px;
+                        margin-left: 70px;
+
+                        ul {
+                            li {
+                                img {
+                                    width: 600px !important;
+                                    height: 300px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            article {
+                width: 730px;
+                height: 200px;
+                margin-top: 25px;
+                margin-left: 20px;
+display: none;
+                .sub-art {
+                    font-size: 20px;
+                    margin-top: 5px;
+                    text-align: center;
+                }
+
+                div {
+                    div {
+                        section {
+                            div {
+                                div {
+                                    div {
+                                        #img-art1 {
+                                            width: 230px;
+                                            height: 120px;
+                                            margin-top: 0;
+                                            margin-left: 200px;
+                                        }
+                                    }
+                                }
+
+                                div {
+                                    div {
+                                        #img-art2 {
+                                            width: 130px;
+                                            height: 50px;
+                                            margin-top: 10px;
+                                            display: none;
                                         }
                                     }
                                 }

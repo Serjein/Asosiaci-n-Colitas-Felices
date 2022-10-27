@@ -856,16 +856,18 @@ main section article div div section div div div #img-art2 {
     margin-bottom: 15px;
   }
   main section div div .slider {
-    width: 850px;
-    height: 210px;
+    width: 720px !important;
+    height: 310px;
+    margin-left: 5px;
   }
   main section div div .slider ul li img {
-    width: 850px;
-    height: 210px;
+    width: 720px !important;
+    height: 310px;
   }
   main section article {
     width: 350px;
-    height: 480px;
+    height: 600px;
+    margin-left: 10px;
   }
   main section article .sub-art {
     font-size: 20px;
@@ -873,12 +875,184 @@ main section article div div section div div div #img-art2 {
     text-align: center;
   }
   main section article div div section div div div #img-art1 {
-    width: 300px;
-    height: 160px;
+    width: 280px;
+    height: 170px;
   }
   main section article div div section div div div #img-art2 {
+    width: 280px;
+    height: 200px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main section div div .texto {
+    font-size: 20px;
+  }
+  main section div div .texto__1 {
+    font-size: 20px;
+  }
+  main section div div .slider {
+    width: 600px !important;
+    height: 330px;
+    margin-top: 10px !important;
+    margin-left: 5px;
+  }
+  main section div div .slider ul li img {
+    width: 600px !important;
+    height: 330px;
+  }
+  main section article {
     width: 300px;
-    height: 190px;
+    height: 600px;
+    margin-left: 10px;
+  }
+  main section article .sub-art {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  main section article div div section div div div #img-art1 {
+    width: 230px;
+    height: 170px;
+  }
+  main section article div div section div div div #img-art2 {
+    width: 230px;
+    height: 180px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .md__col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+  }
+
+  .md__col-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .md__col-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .md__col-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .md__col-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .md__col-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .md__col-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .md__col-7 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .md__col-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .md__col-9 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .md__col-10 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .md__col-11 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .md__col-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  main section div div .texto {
+    font-size: 18px;
+    text-align: center;
+  }
+  main section div div .texto__1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  main section div div .slider {
+    width: 600px !important;
+    height: 300px;
     margin-top: 30px;
+    margin-left: 70px;
+  }
+  main section div div .slider ul li img {
+    width: 600px !important;
+    height: 300px;
+  }
+  main section article {
+    width: 730px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: none;
+  }
+  main section article .sub-art {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  main section article div div section div div div #img-art1 {
+    width: 230px;
+    height: 120px;
+    margin-top: 0;
+    margin-left: 200px;
+  }
+  main section article div div section div div div #img-art2 {
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    display: none;
   }
 }
