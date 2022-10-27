@@ -777,3 +777,108 @@ main section article div div section div div div #img-art2 {
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 1400px) {
+  main section div div .texto {
+    font-size: 25px;
+  }
+  main section div div .texto__1 {
+    font-size: 25px;
+  }
+  main section div div .slider {
+    width: 850px;
+    height: 340px;
+    margin-left: 30px;
+  }
+  main section div div .slider ul li img {
+    width: 850px;
+    height: 340px;
+  }
+  main section article {
+    width: 350px;
+    height: 690px;
+  }
+  main section article .sub-art {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  main section article div div section div div div #img-art1 {
+    width: 300px;
+    height: 250px;
+  }
+  main section article div div section div div div #img-art2 {
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  main section div div .texto {
+    font-size: 23px;
+  }
+  main section div div .texto__1 {
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  main section div div .slider {
+    width: 850px;
+    height: 210px;
+  }
+  main section div div .slider ul li img {
+    width: 850px;
+    height: 210px;
+  }
+  main section article {
+    width: 350px;
+    height: 480px;
+  }
+  main section article .sub-art {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  main section article div div section div div div #img-art1 {
+    width: 300px;
+    height: 160px;
+  }
+  main section article div div section div div div #img-art2 {
+    width: 300px;
+    height: 190px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main section div div .texto {
+    font-size: 23px;
+  }
+  main section div div .texto__1 {
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  main section div div .slider {
+    width: 850px;
+    height: 210px;
+  }
+  main section div div .slider ul li img {
+    width: 850px;
+    height: 210px;
+  }
+  main section article {
+    width: 350px;
+    height: 480px;
+  }
+  main section article .sub-art {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  main section article div div section div div div #img-art1 {
+    width: 300px;
+    height: 160px;
+  }
+  main section article div div section div div div #img-art2 {
+    width: 300px;
+    height: 190px;
+    margin-top: 30px;
+  }
+}
